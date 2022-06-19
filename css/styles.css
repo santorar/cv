@@ -44,7 +44,7 @@ p{
     text-decoration: underline;
 }
 .profile-img{
-    width:35%;
+    width:200px;
     margin-bottom: 40px;
 }
 .profile{
@@ -55,6 +55,7 @@ p{
     padding-top: 100px;
     background-color: #E4F9F5;
     position: relative;
+    overflow:hidden;
 }
 .cloud{
     position: absolute;
@@ -138,4 +139,41 @@ p{
  }
 .bottom-container p{
     margin-top: 40px;
+}
+
+@media (max-width: 850px) and (min-width: 541px){
+    .profile{
+        width:50%;
+    }
+    .profile-img{
+        width:180px;
+    }
+.mountain{
+    width: 100%;
+}
+}
+@media (max-width: 540px){
+    .profile{
+        width:80%;
+    }
+    .profile-img{
+        width:200px;
+    }
+.image-chill , .image-web{
+    float: none;
+    width:100px;
+}
+.skill-row{
+    width:80%;
+    text-align: center;
+}
+.skill-row p, .skill-row h3{
+    text-align: left;
+}
+h1{
+    font-size: 4rem;;
+}
+.mountain{
+    width: 100%;
+}
 }
